@@ -12,4 +12,8 @@ final class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func didTapKakaoLogin(_ sender: UIButton) {
+        print("KakaoLogin")
+    }
 }
