@@ -14,6 +14,7 @@
 		E87E62AD28F8006E004AE11C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87E62AB28F8006E004AE11C /* Main.storyboard */; };
 		E87E62AF28F8006F004AE11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87E62AE28F8006F004AE11C /* Assets.xcassets */; };
 		E87E62B228F8006F004AE11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87E62B028F8006F004AE11C /* LaunchScreen.storyboard */; };
+		E87E62BD28FC3A89004AE11C /* KakaoSDKKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E62BC28FC3A88004AE11C /* KakaoSDKKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E87E62AE28F8006F004AE11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87E62B128F8006F004AE11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87E62B328F8006F004AE11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SocialLoginExample/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		E87E62BC28FC3A88004AE11C /* KakaoSDKKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSDKKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				171FBB35658802D776EE0ADF /* Pods-SocialLoginExample.debug.xcconfig */,
 				58A8079242D9604ECEB63436 /* Pods-SocialLoginExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,6 +113,7 @@
 				E87E62AE28F8006F004AE11C /* Assets.xcassets */,
 				E87E62B028F8006F004AE11C /* LaunchScreen.storyboard */,
 				E87E62B328F8006F004AE11C /* Info.plist */,
+				E87E62BC28FC3A88004AE11C /* KakaoSDKKey.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -233,6 +235,7 @@
 			files = (
 				E87E62AA28F8006E004AE11C /* MainViewController.swift in Sources */,
 				E87E62A628F8006E004AE11C /* AppDelegate.swift in Sources */,
+				E87E62BD28FC3A89004AE11C /* KakaoSDKKey.swift in Sources */,
 				E87E62A828F8006E004AE11C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
