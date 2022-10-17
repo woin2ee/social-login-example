@@ -15,6 +15,7 @@
 		E87E62AF28F8006F004AE11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87E62AE28F8006F004AE11C /* Assets.xcassets */; };
 		E87E62B228F8006F004AE11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87E62B028F8006F004AE11C /* LaunchScreen.storyboard */; };
 		E87E62BD28FC3A89004AE11C /* KakaoSDKKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E62BC28FC3A88004AE11C /* KakaoSDKKey.swift */; };
+		E8BEA22A28FD5C7E00742463 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8BEA22928FD5C7E00742463 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E87E62B128F8006F004AE11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87E62B328F8006F004AE11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SocialLoginExample/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		E87E62BC28FC3A88004AE11C /* KakaoSDKKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSDKKey.swift; sourceTree = "<group>"; };
+		E8BEA22928FD5C7E00742463 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		E87E62A428F8006E004AE11C /* SocialLoginExample */ = {
 			isa = PBXGroup;
 			children = (
+				E8BEA22928FD5C7E00742463 /* GoogleService-Info.plist */,
 				E87E62B928F80087004AE11C /* Application */,
 				E87E62BB28F8008F004AE11C /* Resources */,
 				E87E62BA28F8008B004AE11C /* Scenes */,
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E87E62B228F8006F004AE11C /* LaunchScreen.storyboard in Resources */,
+				E8BEA22A28FD5C7E00742463 /* GoogleService-Info.plist in Resources */,
 				E87E62AF28F8006F004AE11C /* Assets.xcassets in Resources */,
 				E87E62AD28F8006E004AE11C /* Main.storyboard in Resources */,
 			);
