@@ -19,7 +19,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pw-8L-av7">
                                 <rect key="frame" x="45" y="423.5" width="324" height="59"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="kakao_login_medium_wide"/>
+                                <buttonConfiguration key="configuration" style="plain" image="kakao_login_large_wide"/>
                                 <connections>
                                     <action selector="didTapKakaoLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A1R-Js-l9H"/>
                                 </connections>
@@ -28,8 +28,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="3Pw-8L-av7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="T9o-Kt-7Qm"/>
-                            <constraint firstItem="3Pw-8L-av7" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Xfy-he-FsD"/>
+                            <constraint firstItem="3Pw-8L-av7" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="DAz-aR-Sjl"/>
+                            <constraint firstItem="3Pw-8L-av7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vta-7c-U8i"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -39,7 +39,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kakao_login_medium_wide" width="300" height="45"/>
+        <image name="kakao_login_large_wide" width="300" height="45"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
